@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "signature",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[4]",
+						"name": "pubkey",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "message",
+						"type": "uint256[2]"
+					}
+				],
+				"name": "verifySingle",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BN254.sol": "Bn254"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BN254.sol": {
+			"keccak256": "0x3b3c1f04a7d46981fa2131e3d11a1978ce3e94e7a32292eb7872344d860aca35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b76c6fc8353df4dfc37f31ffe03ecc65b14c86b26974fe7bfe2ab8f47b00d04",
+				"dweb:/ipfs/QmXd9ZUuJTHu5MQQx1Jm6KgZxQerXxJhnd7zeYirHctSvm"
+			]
+		}
+	},
+	"version": 1
+}

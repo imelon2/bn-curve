@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BN256.sol": "Bn256"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BN256.sol": {
+			"keccak256": "0xf67b74a26f59347465674ca4c7f7be13c8a5bef723dcd819ed53fbeb4f840843",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d51f41505a00e0cff5246fbc61610d23c98f1db984f871669321e0595529640a",
+				"dweb:/ipfs/QmZ8twXkrvmuCzdqZnCecYxm8gHDhQ5FDhzKKhgiQXXgGS"
+			]
+		}
+	},
+	"version": 1
+}
